@@ -1,9 +1,7 @@
+import React from 'react';
 import { render } from 'react-dom';
 import './styles/global.css';
-
-const App = () => {
-  return <h1>Hello my boiler!</h1>
-}
+import App from './App';
 
 render(<App />, document.querySelector('#app'));
 
